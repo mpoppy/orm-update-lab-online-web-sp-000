@@ -20,6 +20,7 @@ class Student
     )
     SQL
 
+    []
   end
 
 
