@@ -67,7 +67,7 @@ class Student
     #find the row
     #create the object
     #then save back to DB?
-    sql = "UPDATE students UPDATE name, grade WHERE id = ?"
+    sql = "UPDATE students SET name = ?, grade = ? WHERE id = ?"
 
   end
 
