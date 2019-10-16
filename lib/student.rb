@@ -43,6 +43,10 @@ class Student
   end
 
   def create
+    sql = <<-SQL
+    SELECT * FROM students
+    WHERE id = ?
+    SQL
 
   end
 
