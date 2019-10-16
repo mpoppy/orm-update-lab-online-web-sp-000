@@ -60,7 +60,7 @@ class Student
 
     row = DB[:conn].execute(sql, name)[0]
     student = Student.new_from_db(row)
-
+    student
   end
 
 end
