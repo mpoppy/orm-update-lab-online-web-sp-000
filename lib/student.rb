@@ -48,7 +48,7 @@ class Student
   end
 
   def self.new_from_db(row)
-    row.map each do |row|
+    row.map.each do |row|
       new_student = Student.new(id=row[0], name=row[1], grade=row[2])
     end.first
   end
