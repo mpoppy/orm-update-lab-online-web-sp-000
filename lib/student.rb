@@ -11,5 +11,9 @@ class Student
     @age = age
   end
 
+  def self.create_table
+    
+  end
+
 
 end
